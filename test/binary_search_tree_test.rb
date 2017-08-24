@@ -4,7 +4,7 @@ require './lib/binary_search_tree'
 # require './movies.txt'
 
 
-class TestBinarySearchTree < Minitest::Test
+class BinarySearchTreeTest < Minitest::Test
   def test_if_binary_class_exist
     assert BinarySearchTree.new
   end
